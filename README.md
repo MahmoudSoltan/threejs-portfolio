@@ -36,7 +36,7 @@ This is a modern, interactive developer portfolio built with React, Three.js, an
 📦 Installation
 
 # 1. Clone the repo
-git clone https://github.com/MahmoudSoltan/react-threejs-portfolio.git
+git clone https://github.com/MahmoudSoltan/threejs-portfolio.git
 
 # 2. Install dependencies
 cd react-threejs-portfolio
