@@ -25,11 +25,13 @@ const Projects = lazy(() => import('./components/Projects'));
 const Timeline = lazy(() => import('./components/Timeline'));
 const Contact = lazy(() => import('./components/Contact'));
 const AIAssistant = lazy(() => import('./components/AIAssistant'));
+const DataLoader = lazy(() => import('./components/DataLoader'));
 
 export default function App() {
   return (
     <div className="bg-black text-white min-h-screen overflow-x-hidden">
       <Suspense fallback={<div className="text-center mt-20">Loading...</div>}>
+      <DataLoader />
         <Header />
 
         {/* Hero Section with Fixed Canvas */}
