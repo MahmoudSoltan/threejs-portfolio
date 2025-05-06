@@ -1,15 +1,13 @@
 {
-  "name": "threejs-portfolio",
+  "name": "nikeshoes",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mahmoudsoltan.github.io/threejs-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-three/drei": "^10.0.7",
