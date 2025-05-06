@@ -6,7 +6,7 @@ const DataLoader = () => {
 
   useEffect(() => {
     // نقوم بتحميل البيانات باستخدام fetch
-    fetch('/path/to/your/data.json') // ضع هنا المسار الصحيح لملف JSON
+    fetch(import.meta.env.BASE_URL + 'data.json') // ضع هنا المسار الصحيح لملف JSON
       .then(response => {
         console.log('Response:', response);  // طباعة الاستجابة في وحدة التحكم
 
